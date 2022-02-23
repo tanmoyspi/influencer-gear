@@ -1,0 +1,408 @@
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Manrope&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1110px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* header style here start  */
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav .s-menu{
+    display: none;
+}
+header nav .logo_area{
+    display: flex;
+    align-items: center;
+}
+header nav .logo_area a{
+    text-decoration: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #3A3A3A;
+    margin: 16px 0;
+}
+header nav .menu_area{
+    display: flex;
+    align-items: center;
+}
+header nav .menu_area ul{
+    display: flex;
+}
+header nav .menu_area ul li{
+    list-style: none;
+    margin-right: 34px;
+}
+header nav .menu_area ul li a{
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3A3A3A;
+}
+/* header nav .search_cart {
+
+} */
+header nav .search_cart i{
+    margin-right: 34px;
+}
+header nav .search_cart i:last-child{
+    margin-right: 0px;
+}
+/* header style here end  */
+
+
+/* journey area style start here  */
+.journeyarea{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px 0;
+    align-items: center;
+}
+.journeyarea .heading{
+    max-width: 570px;
+}
+.journeyarea .heading h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 70px;
+    color: #3A3A3A;
+}
+.journeyarea .heading p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    font-feature-settings: 'liga' off;
+    color: #3A3A3A;
+}
+.journeyarea .heading button{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #E02C6D;
+    border-radius: 41px;
+    padding: 10px 24px 10px 24px;
+    border: none;
+}
+.journeyarea .displayphoto{
+    background-image: url(images/Circle\ design.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.journeyarea .displayphoto img{
+    width: 80%;
+    padding: 8%; 
+}
+/* journey area style start here  */
+
+/* parner area style start here  */
+.w-mgn{
+    height: 1px;
+    width: 100%;
+    background-image: linear-gradient(to right, #ffffff, #C0CCDA
+    , #ffffff);
+}
+.partners{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 5%;
+    min-height: 80px;
+    padding: 15px 0;
+}
+
+.partner{
+    margin: 10px 0;
+}
+
+/* parner area style end here  */
+
+/*--------------------------------
+ colections area style start here 
+---------------------------------- */
+.collectionarea{
+    margin-top: 100px;
+}
+.collectionarea h2{
+    text-align: center;
+}
+.collections{
+    display: flex;
+    justify-content: center;
+    grid-gap: 30px;
+    flex-wrap: wrap;
+    padding: 30px 0;
+}
+.collection{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    font-family: Roboto;
+    width: 300px;
+    padding: 15px;
+    border-radius: 5px;
+}
+.clec_details{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+}
+.clec_details h3{
+    color: #18191F;
+    margin: 16px 0 6px 0;
+}
+.clec_details h4{
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 150%;
+    margin: 0;
+}
+.rating {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+}
+.rating i{
+    font-size: 9px;
+}
+.rating .fill{
+    color: #FB8200;
+}
+.rating span{
+    color: #5E6366;
+}
+.clec_details p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 143%;
+    color: #787885;
+    margin: 0;
+}
+.seemore {
+    text-align: right;
+    width: 100%;
+    margin: 0 30px;
+}
+.seemore button{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(224, 44, 109, 0.87);
+    border: none;
+    background-color: transparent;
+}
+/*--------------------------------
+ colections area style end here 
+--------------------------------*/
+
+/*--------------------------------
+ feature area style start here 
+--------------------------------*/
+.feature{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+    flex-wrap: wrap;
+    grid-gap: 30px;
+}
+.feature .f-photo img{
+    width: 100%;
+}
+
+.f-content{
+    max-width: 610px;
+}
+.f-content h2{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 60px;color: #0A0826;
+    margin: 0;
+}
+.f-content p{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6C6C6C;
+}
+.f-content button{
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border: none;
+    background: #E02C6D;
+    padding: 10px 24px;
+}
+.f-content button i{
+    margin: 0 10px;
+}
+/*--------------------------------
+ feature area style end here 
+--------------------------------*/
+
+/*--------------------------------
+ footer area style start here 
+--------------------------------*/
+footer{
+    background: #0A0826;
+    text-align: center;
+    padding: 50px 0;
+}
+footer h3{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    margin: 0;
+}
+footer p{
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #D9DBE1;
+    margin: 3px 0;
+}
+
+.social_link{
+    display: flex;
+    justify-content: center;
+    margin-top: 14px;
+}
+
+.social_link li{
+list-style: none;
+}
+.social_link a{
+    text-decoration: none;
+    margin: 0 10px;
+}
+.social_link a i{
+    color: #FFFFFF;
+    height: 17px;
+    width: 17px;
+    padding: 8px;
+    border-radius: 50%;
+    background: #22213C;
+}
+
+/*--------------------------------
+ footer area style end here 
+--------------------------------*/
+
+
+
+/*--------------------------------
+----------------------------------
+ footer area style end here 
+ ---------------------------------
+--------------------------------*/
+@media only screen and (max-width: 1073px){
+    .journeyarea{
+        justify-content: center;
+    }
+    .feature{
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 1039px){
+    .journeyarea{
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 768px) {
+    header nav .menu_area ul {
+      display: none;
+    }
+    header nav .search_cart i.fa-solid.fa-magnifying-glass{
+        display: none;
+    }
+    header nav .s-menu{
+        display: block;
+    }
+    .journeyarea{
+        justify-content: center;
+    }
+    .journeyarea .displayphoto, .f-content{
+        order: 1;
+    }
+    .journeyarea .heading, .f-photo{
+        order: 2;
+    }
+    .journeyarea .heading h1{
+        font-size: 28px;
+        line-height: 42px;
+    }
+    .collectionarea {
+        margin-top: 50px;
+    }
+    .clec_details h3 {
+        font-size: 28px;
+        line-height: 24px;
+    }
+    .f-content h2{
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .feature{
+        justify-content: center;
+    }
+    
+  }
+  @media only screen and (max-width: 576px) {
+    
+    header nav .logo_area a {
+        font-size: 18px;
+    }
+    .collection{
+        width: 260px;
+    }
+    .collection .thumline img{
+        width: 100%;
+    }
+  }
